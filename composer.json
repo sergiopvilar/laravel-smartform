@@ -9,5 +9,8 @@
     ],
     "require": {
       "laravelcollective/html": "5.1.*",
+    },
+    "autoload": {
+      "files": ["src/SmartForm.php"]
     }
 }
