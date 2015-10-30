@@ -1,0 +1,13 @@
+{
+    "name": "sergiovilar/laravel-smartform",
+    "description": "An easy and quick way to create forms using Twitter Bootstrap and Laravel 5",
+    "authors": [
+        {
+            "name": "Sergio Vilar",
+            "email": "sergiovilar.r@gmail.com"
+        }
+    ],
+    "require": {
+      "laravelcollective/html": "5.1.*",
+    }
+}
