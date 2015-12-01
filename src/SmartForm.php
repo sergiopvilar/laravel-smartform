@@ -18,15 +18,15 @@ class SmartForm {
       switch($value[1]) {
 
         case 'file':
-          echo \Form::$value[1]($key);
+          echo \Form::{$value[1]}($key);
           break;
 
         case 'select':
-            echo \Form::$value[1]($key, $default, $class, array('class'=>'form-control'));
+            echo \Form::{$value[1]}($key, $default, $class, array('class'=>'form-control'));
           break;
 
         default:
-          echo \Form::$value[1]($key, $default, array('class'=>'form-control'));
+          echo \Form::{$value[1]}($key, $default, array('class'=>'form-control'));
 
       }
 
